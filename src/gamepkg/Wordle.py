@@ -72,7 +72,7 @@ class WordleGame:
     def new_game(self):
         self.answer=random.choice(WORDS)
         self.reset_board()
-
-root=tk.Tk()
-WordleGame(root)
-root.mainloop()
+def main():
+    root=tk.Tk()
+    WordleGame(root)
+    root.mainloop()

@@ -1,6 +1,7 @@
 
-from src.gamepkg.Wordle import add
+from src.gamepkg.Wordle import main as Wordle
 def main():
-    print("Welcome to Wordle!")
+    Wordle()
+
 if __name__ == "__main__":
     main()
